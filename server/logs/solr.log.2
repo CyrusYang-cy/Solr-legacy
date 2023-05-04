@@ -1,0 +1,216 @@
+2022-11-03 19:50:19.310 INFO  (main) [   ] o.e.j.u.log Logging initialized @1365ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-11-03 19:50:19.565 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.44.v20210927; built: 2021-09-27T23:02:44.612Z; git: 8da83308eeca865e495e53ef315a249d63ba9332; jvm 1.8.0_342-b07
+2022-11-03 19:50:19.581 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///home/ec2-user/solr-8.11.0/server/contexts/] at interval 0
+2022-11-03 19:50:19.880 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2022-11-03 19:50:19.893 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2022-11-03 19:50:19.894 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2022-11-03 19:50:19.897 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2022-11-03 19:50:20.041 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2022-11-03 19:50:20.046 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.0
+2022-11-03 19:50:20.046 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2022-11-03 19:50:20.046 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/ec2-user/solr-8.11.0
+2022-11-03 19:50:20.047 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2022-11-03T19:50:20.047Z
+2022-11-03 19:50:20.060 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /home/ec2-user/solr-8.11.0/server/solr
+2022-11-03 19:50:20.061 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/ec2-user/solr-8.11.0/server/solr/solr.xml
+2022-11-03 19:50:20.186 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@7f010382, but no JMX reporters were configured - adding default JMX reporter.
+2022-11-03 19:50:20.817 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2022-11-03 19:50:21.018 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@24bdb479[provider=null,keyStore=null,trustStore=null]
+2022-11-03 19:50:21.018 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@24bdb479[provider=null,keyStore=null,trustStore=null]
+2022-11-03 19:50:21.194 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@5ae76500[provider=null,keyStore=null,trustStore=null]
+2022-11-03 19:50:21.194 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@5ae76500[provider=null,keyStore=null,trustStore=null]
+2022-11-03 19:50:21.252 INFO  (main) [   ] o.a.s.c.CoreContainer Initializing authorization plugin: solr.RuleBasedAuthorizationPlugin
+2022-11-03 19:50:21.266 INFO  (main) [   ] o.a.s.c.CoreContainer Initializing authentication plugin: solr.BasicAuthPlugin
+2022-11-03 19:50:21.275 WARN  (main) [   ] o.a.s.c.CoreContainer Solr authentication is enabled, but SSL is off.  Consider enabling SSL to protect user credentials and data with encryption.
+2022-11-03 19:50:21.441 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2022-11-03 19:50:21.453 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2022-11-03 19:50:21.536 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7f010382
+2022-11-03 19:50:21.537 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7f010382
+2022-11-03 19:50:21.538 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7f010382
+2022-11-03 19:50:21.576 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/ec2-user/solr-8.11.0/server/solr
+2022-11-03 19:50:21.577 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [aequitas_documents]
+2022-11-03 19:50:21.664 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.c.SolrResourceLoader Added 65 libs to classloader, from paths: [/home/ec2-user/solr-8.11.0/dist]
+2022-11-03 19:50:21.710 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@2d901eb0{/solr,file:///home/ec2-user/solr-8.11.0/server/solr-webapp/webapp/,AVAILABLE}{/home/ec2-user/solr-8.11.0/server/solr-webapp/webapp}
+2022-11-03 19:50:21.749 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@7133da86{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2022-11-03 19:50:21.749 INFO  (main) [   ] o.e.j.s.Server Started @3806ms
+2022-11-03 19:50:21.948 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.1
+2022-11-03 19:50:21.982 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2022-11-03 19:50:22.028 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.s.IndexSchema Schema name=default-config
+2022-11-03 19:50:22.202 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.D.s.SynonymFilterFactory Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2022-11-03 19:50:22.267 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitNorms to be specified in schema, hardcoded behavior is omitNorms=true
+2022-11-03 19:50:22.267 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitTermFreqAndPositions to be specified in schema, hardcoded behavior is omitTermFreqAndPositions=true
+2022-11-03 19:50:22.268 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termOffsets to be specified in schema, hardcoded behavior is termOffsets=false
+2022-11-03 19:50:22.268 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow termPositions to be specified in schema, hardcoded behavior is termPositions=false
+2022-11-03 19:50:22.268 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.s.AbstractSpatialPrefixTreeFieldType FieldType SpatialRecursivePrefixTreeFieldType does not allow omitPositions to be specified in schema, hardcoded behavior is omitPositions=true
+2022-11-03 19:50:22.296 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2022-11-03 19:50:24.327 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.c.CoreContainer Creating SolrCore 'aequitas_documents' using configuration from instancedir /home/ec2-user/solr-8.11.0/server/solr/aequitas_documents, trusted=true
+2022-11-03 19:50:24.360 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.aequitas_documents' (registry 'solr.core.aequitas_documents') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@7f010382
+2022-11-03 19:50:24.376 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.c.SolrCore [[aequitas_documents] ] Opening new SolrCore at [/home/ec2-user/solr-8.11.0/server/solr/aequitas_documents], dataDir=[/home/ec2-user/solr-8.11.0/server/solr/aequitas_documents/data/]
+2022-11-03 19:50:24.999 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.D.s.StandardRequestHandler Solr loaded a deprecated plugin/analysis class [solr.StandardRequestHandler]. Please consult documentation how to replace it accordingly.
+2022-11-03 19:50:25.064 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2022-11-03 19:50:25.073 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2022-11-03 19:50:25.127 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2022-11-03 19:50:25.128 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2022-11-03 19:50:25.380 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/ec2-user/solr-8.11.0/server/solr/aequitas_documents/conf
+2022-11-03 19:50:25.386 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.ltr.store.rest.ManagedFeatureStore for path /schema/feature-store
+2022-11-03 19:50:25.386 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.ManagedResource No stored data found for /schema/feature-store
+2022-11-03 19:50:25.386 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.l.s.r.ManagedFeatureStore ------ managed feature ~ loading ------
+2022-11-03 19:50:25.387 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.ManagedResource Notified 1 observers of /schema/feature-store
+2022-11-03 19:50:25.387 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.RestManager Registered new managed resource /schema/feature-store
+2022-11-03 19:50:25.389 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.ltr.store.rest.ManagedModelStore for path /schema/model-store
+2022-11-03 19:50:25.390 WARN  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.ManagedResource No stored data found for /schema/model-store
+2022-11-03 19:50:25.390 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.l.s.r.ManagedModelStore INIT model store
+2022-11-03 19:50:25.390 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.l.s.r.ManagedModelStore ------ managed models ~ loading ------
+2022-11-03 19:50:25.390 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.ManagedResource Notified 1 observers of /schema/model-store
+2022-11-03 19:50:25.390 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.r.RestManager Registered new managed resource /schema/model-store
+2022-11-03 19:50:25.403 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-11-03 19:50:25.406 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.d.s.s.DiceMultipleCaseSuggester init: {name=titleSuggest,field=titleAutocomplete,classname=org.dice.solrenhancements.spellchecker.DiceMultipleCaseSuggester,lookupImpl=org.apache.solr.spelling.suggest.fst.WFSTLookupFactory,buildOnCommit=false,threshold=5.0E-5}
+2022-11-03 19:50:25.414 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-11-03 19:50:25.416 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.d.s.s.DiceSuggester init: {name=skillSuggest,field=skillAutocomplete,suggestionAnalyzerFieldTypeName=skills_from_text,classname=org.dice.solrenhancements.spellchecker.DiceSuggester,lookupImpl=org.apache.solr.spelling.suggest.fst.WFSTLookupFactory,buildOnCommit=false,sourceLocation=skill_counts_A.txt,skill_counts_B.txt,skill_counts_C.txt,skill_counts_D.txt,threshold=5.0E-5}
+2022-11-03 19:50:25.417 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2022-11-03 19:50:25.425 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2022-11-03 19:50:25.439 INFO  (coreLoadExecutor-13-thread-1) [   x:aequitas_documents] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2022-11-03 19:50:25.467 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2022-11-03 19:50:25.467 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: titleSuggest
+2022-11-03 19:50:25.467 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.d.s.s.DiceMultipleCaseSuggester reload()
+2022-11-03 19:50:25.467 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.d.s.s.DiceMultipleCaseSuggester build()
+2022-11-03 19:50:25.483 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: skillSuggest
+2022-11-03 19:50:25.483 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.d.s.s.DiceSuggester reload()
+2022-11-03 19:50:25.483 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.d.s.s.DiceSuggester build()
+2022-11-03 19:50:25.483 ERROR (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.a.s.h.c.SpellCheckComponent Exception in reloading spell check index for spellchecker: skillSuggest => org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'skill_counts_A.txt' in classpath or '/home/ec2-user/solr-8.11.0/server/solr/aequitas_documents'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:402)
+org.apache.solr.core.SolrResourceNotFoundException: Can't find resource 'skill_counts_A.txt' in classpath or '/home/ec2-user/solr-8.11.0/server/solr/aequitas_documents'
+	at org.apache.solr.core.SolrResourceLoader.openResource(SolrResourceLoader.java:402) ~[?:?]
+	at org.dice.solrenhancements.spellchecker.DiceSuggester.build(DiceSuggester.java:155) ~[?:?]
+	at org.dice.solrenhancements.spellchecker.DiceSuggester.reload(DiceSuggester.java:202) ~[?:?]
+	at org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener.newSearcher(SpellCheckComponent.java:833) ~[?:?]
+	at org.apache.solr.core.SolrCore.lambda$getSearcher$16(SolrCore.java:2400) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_342]
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:218) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_342]
+2022-11-03 19:50:25.491 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2022-11-03 19:50:25.512 INFO  (searcherExecutor-15-thread-1-processing-x:aequitas_documents) [   x:aequitas_documents] o.a.s.c.SolrCore [aequitas_documents]  Registered new searcher autowarm time: 0 ms
+2022-11-03 19:50:32.450 INFO  (qtp1754662105-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=15
+2022-11-03 19:50:32.473 INFO  (qtp1754662105-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1667505032345} status=0 QTime=27
+2022-11-03 19:50:32.477 INFO  (qtp1754662105-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=41
+2022-11-03 19:50:32.554 INFO  (qtp1754662105-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:50:32.557 INFO  (qtp1754662105-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=9
+2022-11-03 19:50:32.558 INFO  (qtp1754662105-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1667505032345} status=0 QTime=9
+2022-11-03 19:50:35.107 INFO  (qtp1754662105-23) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/replication params={wt=json&command=details&_=1667505035061} status=0 QTime=5
+2022-11-03 19:50:35.119 INFO  (qtp1754662105-23) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1667505032345&ts=1667505032345} status=503 QTime=1
+2022-11-03 19:50:35.123 INFO  (qtp1754662105-21) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1667505035061} status=0 QTime=1
+2022-11-03 19:50:35.125 INFO  (qtp1754662105-15) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/admin/system params={wt=json&_=1667505035061} status=0 QTime=14
+2022-11-03 19:50:35.128 INFO  (qtp1754662105-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:50:35.153 INFO  (qtp1754662105-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=22
+2022-11-03 19:50:37.042 INFO  (qtp1754662105-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:50:37.045 INFO  (qtp1754662105-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=5
+2022-11-03 19:50:38.758 INFO  (qtp1754662105-20) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1667505036994} hits=3425 status=0 QTime=105
+2022-11-03 19:50:39.190 INFO  (qtp1754662105-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:50:39.197 INFO  (qtp1754662105-18) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1667505036994} hits=3425 status=0 QTime=3
+2022-11-03 19:50:39.207 INFO  (qtp1754662105-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=12
+2022-11-03 19:51:20.702 INFO  (qtp1754662105-20) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:sexual+assault&indent=true&q.op=OR&_=1667505036994} hits=21 status=0 QTime=929
+2022-11-03 19:51:21.510 INFO  (qtp1754662105-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:51:21.515 INFO  (qtp1754662105-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=15
+2022-11-03 19:51:21.558 INFO  (qtp1754662105-20) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:sexual+assault&indent=true&q.op=OR&_=1667505036994} hits=21 status=0 QTime=54
+2022-11-03 19:52:06.653 INFO  (qtp1754662105-23) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:sexual+assault&defType=dismax&indent=true&q.op=OR&_=1667505036994} hits=2984 status=0 QTime=64
+2022-11-03 19:52:07.147 INFO  (qtp1754662105-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:52:07.150 INFO  (qtp1754662105-19) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:sexual+assault&defType=dismax&indent=true&q.op=OR&_=1667505036994} hits=2984 status=0 QTime=2
+2022-11-03 19:52:07.173 INFO  (qtp1754662105-23) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=20
+2022-11-03 19:53:13.997 INFO  (qtp1754662105-14) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:sexual+assault&defType=edismax&indent=true&q.op=OR&_=1667505036994} hits=2596 status=0 QTime=73
+2022-11-03 19:53:14.900 INFO  (qtp1754662105-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=5
+2022-11-03 19:53:14.902 INFO  (qtp1754662105-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:53:14.908 INFO  (qtp1754662105-14) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:sexual+assault&defType=edismax&indent=true&q.op=OR&_=1667505036994} hits=2596 status=0 QTime=4
+2022-11-03 19:53:38.808 ERROR (qtp1754662105-22) [   x:aequitas_documents] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field text => org.apache.solr.common.SolrException: undefined field text
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1318)
+org.apache.solr.common.SolrException: undefined field text
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1318) ~[?:?]
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:494) ~[?:?]
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:86) ~[?:?]
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:192) ~[?:?]
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:259) ~[?:?]
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:534) ~[?:?]
+	at org.apache.solr.parser.QueryParser.newFieldQuery(QueryParser.java:62) ~[?:?]
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:1109) ~[?:?]
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:832) ~[?:?]
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:421) ~[?:?]
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278) ~[?:?]
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:222) ~[?:?]
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131) ~[?:?]
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:270) ~[?:?]
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49) ~[?:?]
+	at org.apache.solr.search.QParser.getQuery(QParser.java:174) ~[?:?]
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:162) ~[?:?]
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:333) ~[?:?]
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:216) ~[?:?]
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2637) ~[?:?]
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:794) ~[?:?]
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:567) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:427) ~[?:?]
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:357) ~[?:?]
+	at org.eclipse.jetty.servlet.FilterHolder.doFilter(FilterHolder.java:201) ~[jetty-servlet-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.servlet.ServletHandler$Chain.doFilter(ServletHandler.java:1601) ~[jetty-servlet-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:548) ~[jetty-servlet-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:600) ~[jetty-security-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1434) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501) ~[jetty-servlet-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:191) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.InetAccessHandler.handle(InetAccessHandler.java:177) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:322) ~[jetty-rewrite-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.gzip.GzipHandler.handle(GzipHandler.java:763) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.Server.handle(Server.java:516) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277) ~[jetty-server-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) ~[jetty-io-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105) ~[jetty-io-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104) ~[jetty-io-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338) ~[jetty-util-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315) ~[jetty-util-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173) ~[jetty-util-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131) ~[jetty-util-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409) ~[jetty-util-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883) ~[jetty-util-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034) ~[jetty-util-9.4.44.v20210927.jar:9.4.44.v20210927]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_342]
+2022-11-03 19:53:38.808 INFO  (qtp1754662105-22) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q=title:sexual+assault&wt=json} status=400 QTime=1
+2022-11-03 19:53:53.157 INFO  (qtp1754662105-15) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:sexual+assault&indent=true&q.op=OR&_=1667505036994} hits=21 status=0 QTime=21
+2022-11-03 19:53:53.986 INFO  (qtp1754662105-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:53:54.008 INFO  (qtp1754662105-22) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:sexual+assault&indent=true&q.op=OR&_=1667505036994} hits=21 status=0 QTime=17
+2022-11-03 19:53:54.019 INFO  (qtp1754662105-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=28
+2022-11-03 19:54:02.371 INFO  (qtp1754662105-19) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:violence&indent=true&q.op=OR&_=1667505036994} hits=21 status=0 QTime=189
+2022-11-03 19:54:03.218 INFO  (qtp1754662105-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:54:03.222 INFO  (qtp1754662105-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=6
+2022-11-03 19:54:03.234 INFO  (qtp1754662105-15) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q={!type%3Dvector+df%3Dcontent}:violence&indent=true&q.op=OR&_=1667505036994} hits=21 status=0 QTime=18
+2022-11-03 19:56:40.892 INFO  (qtp1754662105-17) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1667505036994} hits=3425 status=0 QTime=0
+2022-11-03 19:56:41.286 INFO  (qtp1754662105-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1667505032345} status=0 QTime=0
+2022-11-03 19:56:41.313 INFO  (qtp1754662105-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1667505032345} status=0 QTime=8
+2022-11-03 19:56:41.314 INFO  (qtp1754662105-14) [   x:aequitas_documents] o.a.s.c.S.Request [aequitas_documents]  webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&_=1667505036994} hits=3425 status=0 QTime=2
+2022-11-03 19:59:18.994 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@7133da86{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2022-11-03 19:59:18.994 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2022-11-03 19:59:18.998 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1275028674
+2022-11-03 19:59:19.002 INFO  (coreCloseExecutor-21-thread-1) [   ] o.a.s.c.SolrCore [aequitas_documents]  CLOSING SolrCore org.apache.solr.core.SolrCore@241a2875
+2022-11-03 19:59:19.002 INFO  (coreCloseExecutor-21-thread-1) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.aequitas_documents tag=SolrCore@241a2875
+2022-11-03 19:59:19.003 INFO  (coreCloseExecutor-21-thread-1) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@244e93fc: rootName = null, domain = solr.core.aequitas_documents, service url = null, agent id = null] for registry solr.core.aequitas_documents/com.codahale.metrics.MetricRegistry@5494327e
+2022-11-03 19:59:19.042 INFO  (coreCloseExecutor-21-thread-1) [   ] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2022-11-03 19:59:19.111 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2022-11-03 19:59:19.111 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@29d334c: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node/com.codahale.metrics.MetricRegistry@2884fc26
+2022-11-03 19:59:19.116 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2022-11-03 19:59:19.116 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@78f9ed3e: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm/com.codahale.metrics.MetricRegistry@16fbe968
+2022-11-03 19:59:19.123 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2022-11-03 19:59:19.123 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@1059754c: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty/com.codahale.metrics.MetricRegistry@14a86f30
+2022-11-03 19:59:19.134 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@2d901eb0{/solr,null,STOPPED}{/home/ec2-user/solr-8.11.0/server/solr-webapp/webapp}
